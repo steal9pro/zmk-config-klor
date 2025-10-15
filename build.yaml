@@ -13,9 +13,9 @@
 #
 
 include:
-  - board: sea_picro
+  - board: rpi_pico
     shield: klor_left
-  - board: sea_picro
+  - board: rpi_pico
     shield: klor_right
 # - board: nice_nano_v2
 #    shield: settings_reset
