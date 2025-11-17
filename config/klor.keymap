@@ -97,7 +97,7 @@ label= "BASE"                                                  ;
    ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤╭────────╮╭────────╮├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
    │  MEDIA  │    Z    │    X    │    C    │    V    │    B    ││  MUTE  ││PLY/PSE ││    N    │    M    │    ,    │    .    │    /    │  BUTTON │
    └─────────┴─────────┴─────────┼─────────┼─────────┼─────────┼╰────────╯╰────────╯┼─────────┼─────────┼─────────┼─────────┴─────────┴─────────┘
-                                 │ ESC/MED │ SPC/NAV │ TAB/BTN │         ││ RET/SYM │         │ BSP/NUM │ DEL/FUN │  
+                                 │ ESC/MED │ SPC/NAV │ TAB/BTN │         ││   RET   │   SYM   │ BSP/NUM │ DEL/FUN │  
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */ 
 
 bindings = <
@@ -105,7 +105,7 @@ bindings = <
                 &kp Q       &kp W       &kp E       &kp R       &kp T                               &kp Y       &kp U       &kp I       &kp O       &kp P
   HYPER         &mt LGUI A  &mt LALT S  &mt LCTRL D &mt LSHFT F &kp G                               &kp H       &mt RSHFT J &mt RCTRL K &mt RALT L  &mt RGUI SEMI &kp SQT
   &mo MEDIA     &kp Z       &kp X       &kp C       &kp V       &kp B       &kp C_MUTE  &kp C_PP    &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &mo BUTTON
-                                        &lt MEDIA ESC &lt NAV SPACE &lt BUTTON TAB &none   &lt SYM RET   &none &lt NUM BSPC &lt FUN DEL    
+                                        &lt MEDIA ESC &lt NAV SPACE &lt BUTTON TAB &none   &kp RET  &mo SYM &lt NUM BSPC &lt FUN DEL    
             >;
 sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
